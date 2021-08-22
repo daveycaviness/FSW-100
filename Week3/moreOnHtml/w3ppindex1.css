@@ -1,0 +1,47 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color:cadetblue
+}
+table{
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    padding: 20px
+}
+footer{
+    text-align: center;
+}
+#span1{
+    text-decoration: underline;
+    color: crimson; 
+}
+
+#span2{
+    text-decoration: underline;
+    color: darkorange;
+}
+
+#img1{
+    height: 300px ;
+   
+   
+}
+#img2{
+    height: 400px;  
+}
+
+thead{
+    text-decoration: underline;
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+} 
