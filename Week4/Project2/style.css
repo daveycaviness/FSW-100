@@ -32,7 +32,7 @@ footer{
 table, thead, th, tr, td{
     width:50%; 
     border: 2px solid white;
-    text-align: right;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     color: white;
