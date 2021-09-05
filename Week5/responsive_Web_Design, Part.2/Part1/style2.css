@@ -9,7 +9,7 @@ header{
     grid-column: 1/4;
 }
 
-side-bar{
+#side-bar{
     font-size: 25px;
     background-color: teal;
     grid-column: 1/4;
@@ -22,7 +22,7 @@ main{
     padding: 100px;
 }
 
-side-bar2{
+#side-bar2{
     font-size: 25px;
     background-color: rgb(180, 69, 180);
     grid-column: 1/4;
@@ -41,7 +41,7 @@ footer{
         grid-column: 1/4;
     }
     
-    side-bar{
+    #side-bar{
         font-size: 25px;
         background-color: teal;
         grid-column: 1/2;
@@ -54,7 +54,7 @@ footer{
         padding: 100px;
     }
     
-    side-bar2{
+    #side-bar2{
         font-size: 25px;
         background-color: rgb(180, 69, 180);
         grid-column: 1/4;
@@ -74,7 +74,7 @@ footer{
         grid-column: 1/5;
     }
     
-    side-bar{
+    #side-bar{
         font-size: 25px;
         background-color: teal;
         grid-column: 1/2;
@@ -87,7 +87,7 @@ footer{
         padding: 100px;
     }
     
-    side-bar2{
+    #side-bar2{
         font-size: 25px;
         background-color: rgb(180, 69, 180);
         grid-column: 4/5;
