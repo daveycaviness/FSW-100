@@ -1,0 +1,102 @@
+.container{
+    display:grid;
+    text-align: center;
+}
+
+header{
+    font-size: 25px;
+    background-color: chartreuse;
+    grid-column: 1/4;
+}
+
+side-bar{
+    font-size: 25px;
+    background-color: teal;
+    grid-column: 1/4;
+}
+
+main{
+    font-size: 25px;
+    background-color: tomato;
+    grid-column: 1/4;
+    padding: 100px;
+}
+
+side-bar2{
+    font-size: 25px;
+    background-color: rgb(180, 69, 180);
+    grid-column: 1/4;
+}
+
+footer{
+    font-size: 25px;
+    background-color: turquoise;
+    grid-column: 1/4;
+}
+
+@media only screen and (min-width: 400px) {
+    header{
+        font-size: 25px;
+        background-color: chartreuse;
+        grid-column: 1/4;
+    }
+    
+    side-bar{
+        font-size: 25px;
+        background-color: teal;
+        grid-column: 1/2;
+    }
+    
+    main{
+        font-size: 25px;
+        background-color: tomato;
+        grid-column: 2/4;
+        padding: 100px;
+    }
+    
+    side-bar2{
+        font-size: 25px;
+        background-color: rgb(180, 69, 180);
+        grid-column: 1/4;
+    }
+    
+    footer{
+        font-size: 25px;
+        background-color: turquoise;
+        grid-column: 1/4;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    header{
+        font-size: 25px;
+        background-color: chartreuse;
+        grid-column: 1/5;
+    }
+    
+    side-bar{
+        font-size: 25px;
+        background-color: teal;
+        grid-column: 1/2;
+    }
+    
+    main{
+        font-size: 25px;
+        background-color: tomato;
+        grid-column: 2/4;
+        padding: 100px;
+    }
+    
+    side-bar2{
+        font-size: 25px;
+        background-color: rgb(180, 69, 180);
+        grid-column: 4/5;
+    }
+    
+    footer{
+        font-size: 25px;
+        background-color: turquoise;
+        grid-column: 1/5;
+    }
+
+}
