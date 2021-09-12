@@ -28,8 +28,9 @@
     text-decoration: underline solid tomato;
 }
 
-body {
-   background-color: darkslategray;
+main {
+    background-image: -webkit-image-set("https://wallpapercave.com/wp/wp3645520.jpg");
+    background-attachment: fixed;
 }
 
 footer{
