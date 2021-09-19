@@ -1,0 +1,284 @@
+#gridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 120px 200px 140px 1fr 1fr 1fr 1fr 50px;
+}
+
+.navbar>a {
+    float: left;
+    color:cornsilk;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: bold;
+    border-radius: 50%;
+    
+}
+
+.navbar {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #333;
+}
+
+.navbar>a:hover{
+    color:slateblue;
+    background-color:cornsilk;
+    text-decoration: underline solid tomato;
+}
+
+body {
+    background: url("https://wallpapercave.com/wp/wp3645532.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 80%;
+}
+
+footer{
+    text-align: center;
+    color:cornsilk;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+
+header{
+    font-family: Tourney;
+    color:cornsilk;
+    text-decoration: underline 2px solid tomato;
+    font-weight: bolder;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+.flexContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 40px 60px fit-content;
+    border: 10px ridge cornsilk;
+    background-color: cornsilk;
+    margin:30px;
+    
+
+}
+
+.flexContainer>h3{
+    
+    color:slateblue;
+    text-align: center;
+    text-decoration: underline solid tomato;
+}
+
+.flexContainer>p{
+    color:slateblue;
+    text-align: center;
+}
+
+.flexContainer>p2{
+    
+    color:slateblue;
+    text-align: center;
+}
+
+.flexContainer>img{
+    width:70vw;
+    border: 2px solid tomato;
+    margin: 0 auto;
+    
+}
+
+#lamboFlex{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+#mercedesFlex{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+#mclarenFlex{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+#porscheFlex{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+table{
+    color: cornsilk;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#myList{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.tableAsset{
+    border:2px dashed tomato;
+    text-align: center;
+}
+
+.list{
+    color: cornsilk;
+    text-align: center;
+}
+
+@media only screen and (min-width:768px){
+    #gridContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 50px 80px 200px 1fr 1fr 1fr 1fr 50px;
+    }
+    
+    .flexContainer>img{
+        width:70vh;
+      
+    }
+    
+    .navbar {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    header{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    
+    }
+    
+    #lamboFlex{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    
+    #mercedesFlex{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    #mclarenFlex{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    
+    #porscheFlex{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+    
+    table{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #myList{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4; 
+    }
+    
+    footer{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+}
+
+@media only screen and (min-width:1366px){
+    #gridContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 50px 80px 200px 1fr 1fr  50px;
+    }
+    
+    #lamboFlex{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    
+    #mercedesFlex{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    
+    #mclarenFlex{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    #porscheFlex{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    table{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    #myList{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        border: 2px dashed tomato;
+    }
+
+    footer{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+}
